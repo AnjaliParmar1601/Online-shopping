@@ -1,0 +1,52 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+body{
+  background-color: azure !important;
+}
+.navbar-bg{
+  padding:15px 10px;
+  background-color: rgb(127, 170, 255);
+} 
+.navbar-bg .items-baseline a{
+   text-decoration: none;
+}
+.navbar-bg .items-baseline a:hover{
+  background-color: aliceblue;
+  border:1px solid aliceblue;
+  border-radius:20px
+}
+
+form .relative input{
+  background-color: rgb(127, 170, 255);
+}
+/*Dashboard css*/
+.dashboard{
+  margin-top:2rem;
+}
+.dashboard .row .col-md-4 .card .card-img-top{
+  margin:10px auto;
+  min-height:160px;
+  max-height: 160px;
+}
+.dashboard .row .card-body{
+  text-align: center;
+}
+.dashboard .row .card-body button{
+  padding:10px;
+  border: 1px solid aqua;
+  margin:5px;
+  background-color:aqua;
+  border-radius: 10px;
+}
+.dashboard .row .col-md-4{
+  margin-bottom: 20px;
+}
+.dashboard .row .col-md-4 .card{
+  border-radius: 10px;
+}
+.dashboard .row .card-body button:hover{
+  background-color: transparent ;
+}
